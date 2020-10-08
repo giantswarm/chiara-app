@@ -1,7 +1,7 @@
 apiVersion: v1
 description: A Helm chart for eventrouter (https://github.com/heptiolabs/eventrouter)
 name: chiara-app
-version: 0.3.0
+version: "[[ .Version ]]""
 appVersion: 0.3.0
 home: https://github.com/heptiolabs/eventrouter
 sources:
