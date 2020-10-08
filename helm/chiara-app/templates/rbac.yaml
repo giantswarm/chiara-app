@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: ClusterRole
 metadata:
-  name: eventrouter 
+  name: chiara-app 
 rules:
 - apiGroups: [""]
   resources: ["events"]
@@ -10,12 +10,12 @@ rules:
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: ClusterRoleBinding
 metadata:
-  name: eventrouter 
+  name: chiara-app 
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: eventrouter
+  name: chiara-app
 subjects:
 - kind: ServiceAccount
-  name: eventrouter
+  name: chiara-app
   namespace: kube-system
