@@ -8,7 +8,7 @@ sources:
 keywords:
 - eventrouter
 maintainers:
-  - name: gianrubio
-    email: gianrubio@gmail.com
+- name: gianrubio
+  email: gianrubio@gmail.com
 version: [[ .Version ]]
 \n
